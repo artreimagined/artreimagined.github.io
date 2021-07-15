@@ -1,0 +1,114 @@
+body {
+    overflow: hidden;
+    position: relative;
+    background: -webkit-linear-gradient(117deg, rgb(55, 87, 246), rgb(216, 71, 99));
+    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(225, 71, 99));
+    background: -webkit-radial-gradient(rgb(194, 74, 250), rgb(105, 86, 225));
+    background: radial-gradient(rgb(200, 350, 250), rgb(50, 86, 25));
+
+}
+svg {
+    position:absolute;
+    top:0;
+    left:0;
+    width:360px;
+    height:360px;
+}
+
+#daria {
+    position:relative;
+    margin:auto;
+    width:360px;
+    height:460px;
+}
+
+#footer {
+    position:absolute;
+    top:360px;
+    left:0;
+    width:361px;
+    height:99px;
+    border-top:1px solid #707070;
+}
+#skintitle {
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:8px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/*#skincolors {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    position:absolute;
+    top:34px;
+    left:0;
+    width:299px;
+    height:65px;
+    overflow-y:hidden;
+}*/
+
+.skincolor {
+    flex: 0 0 auto;
+    top:0;
+    width:53px;
+    height:53px;
+    margin:5px;
+    border:1px solid #707070;
+    cursor:pointer;
+    border-radius: 30px;
+    background-color:#ffdbb4;
+    display: inline-block;
+}
+
+img {
+    height: 125px;
+    margin: none;
+    padding: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 25px;
+  font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+    position: relative;
+    background: -webkit-linear-gradient(117deg, rgb(55, 87, 246), rgb(216, 71, 99));
+    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(225, 71, 99));
+    background: -webkit-radial-gradient(rgb(194, 74, 250), rgb(105, 86, 225));
+    background: radial-gradient(rgb(200, 350, 250), rgb(50, 86, 25));
+
+}
+
+img {
+	margin-left: 50px;
+	width: 90%;
+}
